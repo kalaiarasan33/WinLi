@@ -22,7 +22,7 @@ Python flask app for windows and linux to execute command in remote
 # No setup required for linux, ssh with password
 
 ## Setup config for deployment ##
-# copy code in environment 
+# clone code 
 
 pip install -r requirements.txt
 
