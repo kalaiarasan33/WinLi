@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Python main.py
 
 ## Steps: ##
-# 1. Give username and password od machine in landing page --> login
+# 1. Give username and password  in landing page 
 # 2. * Select os - windows or linux
       * Give ip -  ex. 192.168.0.0
          * If multiple ip list use comman seperator  -  ex. 192.168.0.0,192.168.0.1
