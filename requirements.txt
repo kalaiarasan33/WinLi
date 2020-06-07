@@ -1,0 +1,4 @@
+pywinrm==0.2.2
+paramiko
+Flask
+boto3
