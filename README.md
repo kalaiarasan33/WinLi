@@ -9,11 +9,11 @@ Python flask app for windows and linux to execute command in remote
   * Enable WinRM over HTTP and HTTPS with self-signed certificate (includes firewall rules):
 
 # from powershell:
-  I.  Invoke-Expression ((New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1'))
-  Enable WinRM over HTTP for test usage (includes firewall rules):
+    I.  Invoke-Expression ((New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1'))
+    Enable WinRM over HTTP for test usage (includes firewall rules):
 
-  II.  winrm quickconfig
-  Enable WinRM basic authentication. For domain users, it is necessary to use NTLM, Kerberos or CredSSP authentication (Kerberos and NTLM authentication are enabled by default CredSSP isn’t).
+    II.  winrm quickconfig
+    Enable WinRM basic authentication. For domain users, it is necessary to use NTLM, Kerberos or CredSSP authentication (Kerberos and NTLM authentication are enabled by default CredSSP isn’t).
 
 # from cmd:
     III. winrm set winrm/config/service/auth @{Basic="true"}
